@@ -1,5 +1,6 @@
 # IMU Threejs
 A simple web page to display the IMU sensor status using threejs
+![Screenshot](replay_data/screenshot1.jpeg)
 
 ### How to Run
 * `npm install`
