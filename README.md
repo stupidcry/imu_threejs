@@ -1,30 +1,17 @@
-### 修改src/Home.vue中的onmessage方法处理后端数据
+# IMU Threejs
+A simple web page to display the IMU sensor status using threejs
 
-### 打包后可以在dist目录运行`python3 -m http.server`启动http服务器
+### How to Run
+* `npm install`
+* `npm run serve`
 
-# xsens-web
+### Realtime
+* Use websocket to display the object motion in realtime
+* Websocket data format: `w|x|y|z`
 
-## Project setup
-```
-npm install
-```
+### Replay
+* Replay the data export from [Xsens](https://www.movella.com/products/wearables/movella-dot).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
+## Device
+The device I use: [Xsens](https://www.movella.com/products/wearables/movella-dot).
 
